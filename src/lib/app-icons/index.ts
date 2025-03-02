@@ -1,0 +1,13 @@
+export { default as AppStore } from './app-store.svelte';
+export { default as CompatibleApps } from './compatible-apps.svelte';
+export { default as Freeform } from './freeform.svelte';
+export { default as Keynote } from './keynote.svelte';
+export { default as Mail } from './mail.svelte';
+export { default as Messages } from './messages.svelte';
+export { default as Mindfulness } from './mindfulness.svelte';
+export { default as Music } from './music.svelte';
+export { default as Notes } from './notes.svelte';
+export { default as Photos } from './photos.svelte';
+export { default as Safari } from './safari.svelte';
+export { default as Settings } from './settings.svelte';
+export { default as TV } from './tv.svelte';
