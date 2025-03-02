@@ -32,7 +32,7 @@ import { backgrounds, setBackground } from '$lib/background';
 		<enhanced:img
 			src={bg.url || '/bg.jpg'}
 			alt="Background"
-			class="mx-10 size-20 rounded-full object-cover group-hover:m-0 group-hover:h-24 group-hover:w-40 group-hover:drop-shadow-lg group-active:translate-1 group-active:scale-95"
+			class="mx-10 size-20 rounded-full object-cover brightness-60 group-hover:m-0 group-hover:h-24 group-hover:w-40 group-hover:brightness-100 group-hover:drop-shadow-lg group-active:translate-1 group-active:scale-95"
 		/>
 		<div class="text-xs font-medium text-neutral-300 drop-shadow-md group-hover:text-white">
 			{bg.name}
