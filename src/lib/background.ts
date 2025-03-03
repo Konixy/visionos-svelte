@@ -7,51 +7,51 @@ export const backgrounds = [
 	},
 	{
 		name: 'Background 1',
-		url: 'https://picsum.photos/seed/1/300/200'
+		url: 'https://picsum.photos/seed/1/1920/1080'
 	},
 	{
 		name: 'Background 2',
-		url: 'https://picsum.photos/seed/2/300/200'
+		url: 'https://picsum.photos/seed/2/1920/1080'
 	},
 	{
 		name: 'Background 3',
-		url: 'https://picsum.photos/seed/3/300/200'
+		url: 'https://picsum.photos/seed/3/1920/1080'
 	},
 	{
 		name: 'Background 4',
-		url: 'https://picsum.photos/seed/4/300/200'
+		url: 'https://picsum.photos/seed/4/1920/1080'
 	},
 	{
 		name: 'Background 5',
-		url: 'https://picsum.photos/seed/5/300/200'
+		url: 'https://picsum.photos/seed/5/1920/1080'
 	},
 	{
 		name: 'Background 6',
-		url: 'https://picsum.photos/seed/6/300/200'
+		url: 'https://picsum.photos/seed/6/1920/1080'
 	},
 	{
 		name: 'Background 7',
-		url: 'https://picsum.photos/seed/7/300/200'
+		url: 'https://picsum.photos/seed/7/1920/1080'
 	},
 	{
 		name: 'Background 8',
-		url: 'https://picsum.photos/seed/8/300/200'
+		url: 'https://picsum.photos/seed/8/1920/1080'
 	},
 	{
 		name: 'Background 9',
-		url: 'https://picsum.photos/seed/9/300/200'
+		url: 'https://picsum.photos/seed/9/1920/1080'
 	},
 	{
 		name: 'Background 10',
-		url: 'https://picsum.photos/seed/10/300/200'
+		url: 'https://picsum.photos/seed/10/1920/1080'
 	},
 	{
 		name: 'Background 11',
-		url: 'https://picsum.photos/seed/11/300/200'
+		url: 'https://picsum.photos/seed/11/1920/1080'
 	},
 	{
 		name: 'Background 12',
-		url: 'https://picsum.photos/seed/12/300/200'
+		url: 'https://picsum.photos/seed/12/1920/1080'
 	}
 ];
 

@@ -1,5 +1,5 @@
 <script lang="ts">
-import { blur } from 'svelte/transition';
+import { fade } from 'svelte/transition';
 import { page } from '$app/state';
 
 let { children } = $props();
@@ -7,7 +7,8 @@ let { children } = $props();
 
 <div class="flex w-full flex-row items-center justify-center">
 	<div
-		class="group absolute flex w-[52px] -translate-x-[450px] flex-col gap-2 rounded-[26px] bg-black/10 p-2 shadow-xl inset-shadow-sm shadow-black/30 inset-shadow-white/50 backdrop-blur-xl transition-all hover:w-auto [&>*]:transition-all [&>*]:outline-none"
+		class="group absolute flex w-[52px] origin-left -translate-x-[450px] flex-col gap-2 rounded-[26px] bg-black/10 p-2 shadow-xl inset-shadow-sm shadow-black/30 inset-shadow-white/50 backdrop-blur-xl transition-[width] duration-300 ease-in-out hover:w-[160px] [&>*]:transition-all [&>*]:outline-none"
+		transition:fade
 	>
 		<a
 			href="/"
@@ -16,7 +17,10 @@ let { children } = $props();
 				: 'hover:bg-white/20'}"
 		>
 			<img src="/icons/app-store.svg" alt="App Store Icon" class="size-5" />
-			<span class="text-xs opacity-0 group-hover:opacity-100">Apps</span>
+			<span
+				class="text-xs opacity-0 blur-sm transition group-hover:opacity-100 group-hover:blur-none"
+				>Apps</span
+			>
 		</a>
 		<a
 			href="/"
@@ -25,7 +29,10 @@ let { children } = $props();
 				: 'hover:bg-white/20'}"
 		>
 			<img src="/icons/users.svg" alt="Users Icon" class="size-5" />
-			<span class="text-xs opacity-0 group-hover:opacity-100">People</span>
+			<span
+				class="text-xs opacity-0 blur-sm transition group-hover:opacity-100 group-hover:blur-none"
+				>People</span
+			>
 		</a>
 		<a
 			href="/background"
@@ -34,7 +41,10 @@ let { children } = $props();
 				: 'hover:bg-white/20'}"
 		>
 			<img src="/icons/background.svg" alt="Background Icon" class="size-5" />
-			<span class="text-xs opacity-0 group-hover:opacity-100">Environments</span>
+			<span
+				class="text-xs opacity-0 blur-sm transition group-hover:opacity-100 group-hover:blur-none"
+				>Environments</span
+			>
 		</a>
 	</div>
 
